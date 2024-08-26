@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+body {
+
+    background-image: url("photo.avif");
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:rgba(245, 245, 221, 0.815);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    opacity: 0.9;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .task-list {
+    margin-top: 20px;
+  }
+  
+  .task {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .task-title {
+    font-weight: bold;
+    text-decoration: none; 
+  }
+  
+  .task-actions {
+    display: flex;
+  }
+  
+  .task-action {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .task-action:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .filter-container {
+    display:contents;
+    margin-top: 20px;
+    align-items: center;
+  }
+  
+  .filter-label {
+    margin-right: 10px;
+  }
+  
+  
+  .task-title.completed {
+    color: rgb(44, 173, 5); 
+  }
+
+  
